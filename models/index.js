@@ -1,7 +1,7 @@
 const User = require('./User');
 const Blog = require('./Blog');
 
-User.hasMany(Product, {
+User.hasMany(Blog, {
   foreignKey: 'user_id',
   onDelete: 'CASCADE'
 });
