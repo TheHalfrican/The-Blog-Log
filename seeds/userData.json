@@ -1,0 +1,27 @@
+[
+{
+    "name": "Noah",
+    "email": "noahmattocks@gmail.com",
+    "password": "password12"
+},
+{
+    "name": "Billy",
+    "email": "billyandmandy@gmail.com",
+    "password": "password13"
+},
+{
+    "name": "Karl",
+    "email": "karlmalone@gmail.com",
+    "password": ""
+},
+{
+    "name": "Xenu",
+    "email": "xenuthealien@gmail.com",
+    "password": "password14"
+},
+{
+    "name": "Cthulu",
+    "email": "cthulutheeldritchtruth@gmail.com",
+    "password": "password15"
+}
+]
