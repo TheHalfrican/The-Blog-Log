@@ -1,0 +1,19 @@
+{{#if logged_in}}
+  {{#each blog as |b|}}
+    <div class="card-group">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">{{b.id}}. {{b.blog_title}}</h5>
+          <p class="card-text">{{b.blog_body}}</p>
+        </div>
+        <a
+          href="/blog/{{b.id}}"
+          id="viewBlog"
+          class="btn btn-$indigo"
+        >Go to Blog</a>
+      </div>
+    </div>
+  {{/each}}
+{{else}}
+  <p id="welcometext">Welcome to <br />The Blog Log </p>
+{{/if}}
